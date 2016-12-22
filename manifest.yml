@@ -1,5 +1,5 @@
 applications:
-- name: mytestapp
+- name: 管線-1482366210
   memory: 256M
   disk_quota: 512M
   path: php
@@ -7,7 +7,7 @@ applications:
   host: deploy
   domain: mybluemix.net
   timeout: 80
-- name: mytestapp2
+- name: 管線-1482366210
   memory: 256M
   disk_quota: 512M
   path: php
