@@ -2,7 +2,7 @@ applications:
 - name: mytestapp
   memory: 256M
   disk_quota: 512M
-  path: /
+  path: /php
   instances: 2
   host: deploy
   domain: mybluemix.net
