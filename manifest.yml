@@ -3,7 +3,15 @@ applications:
   memory: 256M
   disk_quota: 512M
   path: php
-  instances: 2
+  instances: 1
   host: deploy
+  domain: mybluemix.net
+  timeout: 80
+- name: mytestapp2
+  memory: 256M
+  disk_quota: 512M
+  path: php
+  instances: 1
+  host: deploy2
   domain: mybluemix.net
   timeout: 80
